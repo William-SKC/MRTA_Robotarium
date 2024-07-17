@@ -1,0 +1,169 @@
+{
+    "num_agents": 3,
+    "num_tasks": 6,
+    "num_obstacles": 0,
+    "max_speed": 16,
+    "max_deadline": 421.3776408148476,
+    "map": {
+        "width": 240,
+        "height": 160
+    },
+    "tasks": [
+        {
+            "id": 0,
+            "x": 90,
+            "y": 120,
+            "start_time": 0,
+            "end_time": 421
+        },
+        {
+            "id": 1,
+            "x": 149,
+            "y": 80,
+            "start_time": 0,
+            "end_time": 421
+        },
+        {
+            "id": 2,
+            "x": 125,
+            "y": 140,
+            "start_time": 0,
+            "end_time": 421
+        },
+        {
+            "id": 3,
+            "x": 117,
+            "y": 80,
+            "start_time": 0,
+            "end_time": 421
+        },
+        {
+            "id": 4,
+            "x": 87,
+            "y": 40,
+            "start_time": 0,
+            "end_time": 421
+        },
+        {
+            "id": 5,
+            "x": 153,
+            "y": 100,
+            "start_time": 0,
+            "end_time": 421
+        }
+    ],
+    "agents": [
+        {
+            "id": 0,
+            "x": 13,
+            "y": 42.66666666666667,
+            "speed": 15
+        },
+        {
+            "id": 1,
+            "x": 28,
+            "y": 85.33333333333334,
+            "speed": 15
+        },
+        {
+            "id": 2,
+            "x": 22,
+            "y": 128.0,
+            "speed": 15
+        }
+    ],
+    "durations": [
+        {
+            "agent": 0,
+            "task": 0,
+            "duration": 50
+        },
+        {
+            "agent": 0,
+            "task": 1,
+            "duration": 50
+        },
+        {
+            "agent": 0,
+            "task": 2,
+            "duration": 50
+        },
+        {
+            "agent": 0,
+            "task": 3,
+            "duration": 50
+        },
+        {
+            "agent": 0,
+            "task": 4,
+            "duration": 50
+        },
+        {
+            "agent": 0,
+            "task": 5,
+            "duration": 50
+        },
+        {
+            "agent": 1,
+            "task": 0,
+            "duration": 50
+        },
+        {
+            "agent": 1,
+            "task": 1,
+            "duration": 50
+        },
+        {
+            "agent": 1,
+            "task": 2,
+            "duration": 50
+        },
+        {
+            "agent": 1,
+            "task": 3,
+            "duration": 50
+        },
+        {
+            "agent": 1,
+            "task": 4,
+            "duration": 50
+        },
+        {
+            "agent": 1,
+            "task": 5,
+            "duration": 50
+        },
+        {
+            "agent": 2,
+            "task": 0,
+            "duration": 50
+        },
+        {
+            "agent": 2,
+            "task": 1,
+            "duration": 50
+        },
+        {
+            "agent": 2,
+            "task": 2,
+            "duration": 50
+        },
+        {
+            "agent": 2,
+            "task": 3,
+            "duration": 50
+        },
+        {
+            "agent": 2,
+            "task": 4,
+            "duration": 50
+        },
+        {
+            "agent": 2,
+            "task": 5,
+            "duration": 50
+        }
+    ],
+    "wait_time": {},
+    "obstacles": []
+}

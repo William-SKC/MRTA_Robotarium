@@ -1,0 +1,424 @@
+{
+    "num_agents": 5,
+    "num_tasks": 10,
+    "num_obstacles": 5,
+    "max_speed": 10,
+    "max_deadline": 3884.4410203711914,
+    "map": {
+        "width": 240,
+        "height": 160
+    },
+    "tasks": [
+        {
+            "id": 0,
+            "x": 113,
+            "y": 40,
+            "start_time": 633,
+            "end_time": 2565
+        },
+        {
+            "id": 1,
+            "x": 70,
+            "y": 60,
+            "start_time": 923,
+            "end_time": 3303
+        },
+        {
+            "id": 2,
+            "x": 204,
+            "y": 20,
+            "start_time": 2679,
+            "end_time": 3140
+        },
+        {
+            "id": 3,
+            "x": 213,
+            "y": 20,
+            "start_time": 378,
+            "end_time": 1927
+        },
+        {
+            "id": 4,
+            "x": 188,
+            "y": 100,
+            "start_time": 2451,
+            "end_time": 2888
+        },
+        {
+            "id": 5,
+            "x": 135,
+            "y": 0,
+            "start_time": 109,
+            "end_time": 2697
+        },
+        {
+            "id": 6,
+            "x": 224,
+            "y": 0,
+            "start_time": 2921,
+            "end_time": 3863
+        },
+        {
+            "id": 7,
+            "x": 217,
+            "y": 20,
+            "start_time": 2721,
+            "end_time": 3201
+        },
+        {
+            "id": 8,
+            "x": 158,
+            "y": 40,
+            "start_time": 284,
+            "end_time": 3371
+        },
+        {
+            "id": 9,
+            "x": 66,
+            "y": 140,
+            "start_time": 1333,
+            "end_time": 3298
+        }
+    ],
+    "agents": [
+        {
+            "id": 0,
+            "x": 0,
+            "y": 25.6,
+            "speed": 7
+        },
+        {
+            "id": 1,
+            "x": 52,
+            "y": 51.2,
+            "speed": 1
+        },
+        {
+            "id": 2,
+            "x": 14,
+            "y": 76.80000000000001,
+            "speed": 1
+        },
+        {
+            "id": 3,
+            "x": 57,
+            "y": 102.4,
+            "speed": 1
+        },
+        {
+            "id": 4,
+            "x": 8,
+            "y": 128.0,
+            "speed": 1
+        }
+    ],
+    "durations": [
+        {
+            "agent": 0,
+            "task": 0,
+            "duration": 21
+        },
+        {
+            "agent": 0,
+            "task": 1,
+            "duration": 23
+        },
+        {
+            "agent": 0,
+            "task": 2,
+            "duration": 40
+        },
+        {
+            "agent": 0,
+            "task": 3,
+            "duration": 57
+        },
+        {
+            "agent": 0,
+            "task": 4,
+            "duration": 94
+        },
+        {
+            "agent": 0,
+            "task": 5,
+            "duration": 73
+        },
+        {
+            "agent": 0,
+            "task": 6,
+            "duration": 80
+        },
+        {
+            "agent": 0,
+            "task": 7,
+            "duration": 15
+        },
+        {
+            "agent": 0,
+            "task": 8,
+            "duration": 24
+        },
+        {
+            "agent": 0,
+            "task": 9,
+            "duration": 73
+        },
+        {
+            "agent": 1,
+            "task": 0,
+            "duration": 64
+        },
+        {
+            "agent": 1,
+            "task": 1,
+            "duration": 76
+        },
+        {
+            "agent": 1,
+            "task": 2,
+            "duration": 61
+        },
+        {
+            "agent": 1,
+            "task": 3,
+            "duration": 35
+        },
+        {
+            "agent": 1,
+            "task": 4,
+            "duration": 84
+        },
+        {
+            "agent": 1,
+            "task": 5,
+            "duration": 73
+        },
+        {
+            "agent": 1,
+            "task": 6,
+            "duration": 17
+        },
+        {
+            "agent": 1,
+            "task": 7,
+            "duration": 81
+        },
+        {
+            "agent": 1,
+            "task": 8,
+            "duration": 85
+        },
+        {
+            "agent": 1,
+            "task": 9,
+            "duration": 68
+        },
+        {
+            "agent": 2,
+            "task": 0,
+            "duration": 18
+        },
+        {
+            "agent": 2,
+            "task": 1,
+            "duration": 32
+        },
+        {
+            "agent": 2,
+            "task": 2,
+            "duration": 28
+        },
+        {
+            "agent": 2,
+            "task": 3,
+            "duration": 13
+        },
+        {
+            "agent": 2,
+            "task": 4,
+            "duration": 79
+        },
+        {
+            "agent": 2,
+            "task": 5,
+            "duration": 83
+        },
+        {
+            "agent": 2,
+            "task": 6,
+            "duration": 11
+        },
+        {
+            "agent": 2,
+            "task": 7,
+            "duration": 24
+        },
+        {
+            "agent": 2,
+            "task": 8,
+            "duration": 36
+        },
+        {
+            "agent": 2,
+            "task": 9,
+            "duration": 11
+        },
+        {
+            "agent": 3,
+            "task": 0,
+            "duration": 40
+        },
+        {
+            "agent": 3,
+            "task": 1,
+            "duration": 59
+        },
+        {
+            "agent": 3,
+            "task": 2,
+            "duration": 23
+        },
+        {
+            "agent": 3,
+            "task": 3,
+            "duration": 22
+        },
+        {
+            "agent": 3,
+            "task": 4,
+            "duration": 53
+        },
+        {
+            "agent": 3,
+            "task": 5,
+            "duration": 90
+        },
+        {
+            "agent": 3,
+            "task": 6,
+            "duration": 30
+        },
+        {
+            "agent": 3,
+            "task": 7,
+            "duration": 99
+        },
+        {
+            "agent": 3,
+            "task": 8,
+            "duration": 43
+        },
+        {
+            "agent": 3,
+            "task": 9,
+            "duration": 42
+        },
+        {
+            "agent": 4,
+            "task": 0,
+            "duration": 84
+        },
+        {
+            "agent": 4,
+            "task": 1,
+            "duration": 80
+        },
+        {
+            "agent": 4,
+            "task": 2,
+            "duration": 65
+        },
+        {
+            "agent": 4,
+            "task": 3,
+            "duration": 93
+        },
+        {
+            "agent": 4,
+            "task": 4,
+            "duration": 48
+        },
+        {
+            "agent": 4,
+            "task": 5,
+            "duration": 50
+        },
+        {
+            "agent": 4,
+            "task": 6,
+            "duration": 20
+        },
+        {
+            "agent": 4,
+            "task": 7,
+            "duration": 88
+        },
+        {
+            "agent": 4,
+            "task": 8,
+            "duration": 63
+        },
+        {
+            "agent": 4,
+            "task": 9,
+            "duration": 92
+        }
+    ],
+    "wait_time": {
+        "1": [
+            {
+                "prerequisite": 7,
+                "wait_time": 10
+            }
+        ],
+        "4": [
+            {
+                "prerequisite": 2,
+                "wait_time": 13
+            }
+        ],
+        "9": [
+            {
+                "prerequisite": 1,
+                "wait_time": 17
+            }
+        ],
+        "8": [
+            {
+                "prerequisite": 4,
+                "wait_time": 17
+            },
+            {
+                "prerequisite": 1,
+                "wait_time": 17
+            }
+        ]
+    },
+    "obstacles": [
+        {
+            "x": 107,
+            "y": 73,
+            "radius": 12
+        },
+        {
+            "x": 17,
+            "y": 34,
+            "radius": 12
+        },
+        {
+            "x": 53,
+            "y": 13,
+            "radius": 10
+        },
+        {
+            "x": 96,
+            "y": 148,
+            "radius": 6
+        },
+        {
+            "x": 238,
+            "y": 99,
+            "radius": 18
+        }
+    ]
+}
